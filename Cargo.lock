@@ -201,6 +201,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "copperbomb"
+version = "0.1.1"
+dependencies = [
+ "serenity",
+ "tokio",
+]
+
+[[package]]
 name = "core-foundation"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1197,14 +1205,6 @@ dependencies = [
  "ring",
  "rustls-pki-types",
  "untrusted",
-]
-
-[[package]]
-name = "rusty"
-version = "0.1.0"
-dependencies = [
- "serenity",
- "tokio",
 ]
 
 [[package]]
